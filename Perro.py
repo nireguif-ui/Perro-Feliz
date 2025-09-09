@@ -2,7 +2,7 @@ class Perro_feliz:
    
     def __init__(self,edad,nombre,color_ojos):
         
-        self.edad = int (edad)
+        self.edad = double (edad)
         self.nombre = nombre
         self.color_ojos = color_ojos
 
@@ -17,4 +17,5 @@ mi_perro = Perro_feliz(3, "Tommy", "Cafe")
 
 mi_perro.comer()
 mi_perro.pasear()
+
 mi_perro.acariciar()
